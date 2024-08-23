@@ -5,7 +5,7 @@ class Player:
     def __init__(self):
         self.name = ""
         self.symbol = ""
-
+ 
     def choose_name(self):
         while True:
             name = input("Enter your name (letters only) : ")
