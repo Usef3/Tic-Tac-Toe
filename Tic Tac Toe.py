@@ -2,7 +2,7 @@ import os
 from colorama import init, Fore, Style
 
 init()
-
+ 
 
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
